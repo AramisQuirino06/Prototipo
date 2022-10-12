@@ -1,0 +1,153 @@
+:host {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  overflow: hidden;
+}
+.group {
+  background-color: hsla(var(--igx-surface-500));
+  background-image: url("/assets/fondo pruebas.jpg");
+  background-size: 100% 100%;
+  position: relative;
+  width: 1620px;
+  min-width: 50px;
+  min-height: 50px;
+}
+.group_1 {
+  background-color: hsla(var(--igx-surface-500));
+  left: 973.0546075085318px;
+  top: 141.71331058020482px;
+  position: absolute;
+  width: 371px;
+  height: 332px;
+  min-width: 50px;
+  min-height: 50px;
+}
+.slider {
+  left: 92.10921501706491px;
+  top: 226.95564139825103px;
+  position: absolute;
+  width: 832px;
+  height: max-content;
+  min-width: 50px;
+}
+.slider_1 {
+  left: 92.10921501706491px;
+  top: 398.96929327538396px;
+  position: absolute;
+  width: 832px;
+  height: max-content;
+  min-width: 50px;
+}
+.input {
+  left: 747.0307167235491px;
+  top: 188.29351535836184px;
+  position: absolute;
+  height: max-content;
+  min-width: min-content;
+}
+.input_1 {
+  left: 747.0307167235491px;
+  top: 357.84982935153573px;
+  position: absolute;
+  height: max-content;
+  min-width: min-content;
+}
+.select {
+  left: 148.44029136892064px;
+  top: 105.54606675287991px;
+  position: absolute;
+  width: 403px;
+  height: max-content;
+  min-width: min-content;
+}
+.button {
+  color: hsla(var(--igx-surface-500));
+  background-color: hsla(var(--igx-primary-900));
+  left: 664.0307167235504px;
+  top: 109.65870307167233px;
+  position: absolute;
+  width: 257px;
+  height: max-content;
+  min-width: min-content;
+}
+.text {
+  left: 150.5119453924915px;
+  top: 67.88395904436868px;
+  position: absolute;
+  width: 326px;
+  height: max-content;
+  min-width: min-content;
+}
+.text_1 {
+  left: 86.62116040955641px;
+  top: 210.4095563139931px;
+  position: absolute;
+  width: 326px;
+  height: max-content;
+  min-width: min-content;
+}
+.text_2 {
+  left: 86.62116040955641px;
+  top: 382.42320819112604px;
+  position: absolute;
+  width: 326px;
+  height: max-content;
+  min-width: min-content;
+}
+.icon {
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  left: 715.0853242320801px;
+  top: 205.4948805460752px;
+  position: absolute;
+}
+.icon_1 {
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  left: 715.0853242320801px;
+  top: 370.136518771331px;
+  position: absolute;
+}
+.text_3 {
+  text-align: center;
+  color: hsla(var(--igx-primary-400));
+  left: 22.5px;
+  top: 31.59045535142931px;
+  position: absolute;
+  width: 326px;
+  height: max-content;
+  min-width: min-content;
+}
+.text_4 {
+  text-align: center;
+  color: hsla(var(--igx-primary-400));
+  left: 22.5px;
+  top: 166.74403896917661px;
+  position: absolute;
+  width: 326px;
+  height: max-content;
+  min-width: min-content;
+}
+.text_5 {
+  text-align: center;
+  left: 22.5px;
+  top: 88.10922668248728px;
+  position: absolute;
+  width: 326px;
+  height: max-content;
+  min-width: min-content;
+}
+.text_6 {
+  text-align: center;
+  left: 22.5px;
+  top: 265.0375543275383px;
+  position: absolute;
+  width: 326px;
+  height: max-content;
+  min-width: min-content;
+}

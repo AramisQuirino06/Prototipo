@@ -1,0 +1,17 @@
+:host {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  overflow: hidden;
+}
+.group {
+  background-color: hsla(var(--igx-surface-500));
+  background-image: url("/assets/fondo pruebas.jpg");
+  background-size: 100% 100%;
+  position: relative;
+  width: 1620px;
+  min-width: 50px;
+  min-height: 50px;
+}

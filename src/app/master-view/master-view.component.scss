@@ -1,0 +1,58 @@
+:host {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  overflow: auto;
+}
+.navbar {
+  --igx-navbar-background: hsla(var(--igx-surface-500));
+  position: relative;
+  height: max-content;
+  min-width: min-content;
+}
+.nav-drawer {
+  min-width: min-content;
+  min-height: 0;
+  flex-shrink: 0;
+}
+.view-container {
+  position: relative;
+  flex-grow: 1;
+}
+.button {
+  color: hsla(var(--igx-primary-900));
+  background-color: transparent;
+}
+.button_1 {
+  color: hsla(var(--igx-primary-900));
+  margin: 0 0 0 1000px;
+  height: max-content;
+  min-width: min-content;
+}
+.image {
+  object-fit: scale-down;
+  width: 296px;
+  height: 169px;
+  min-width: 0;
+  min-height: 0;
+}
+.icon {
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+}
+.row-layout {
+  display: flex;
+}
+.group {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+}

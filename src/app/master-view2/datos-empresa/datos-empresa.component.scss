@@ -1,0 +1,214 @@
+:host {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.group {
+  background-image: url("/assets/fondo pruebas.jpg");
+  background-size: 100% 100%;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.slider {
+  left: 169.0000233308447px;
+  top: 35.28328644944577px;
+  position: absolute;
+  width: 1102px;
+  height: max-content;
+  min-width: 50px;
+}
+.button {
+  color: hsla(var(--igx-surface-500));
+  background-color: red;
+  left: 932.6109215017074px;
+  top: 539.6928327645013px;
+  position: absolute;
+  width: 249px;
+  height: max-content;
+  min-width: min-content;
+}
+.button_1 {
+  color: hsla(var(--igx-surface-500));
+  background-color: hsla(var(--igx-grays-600));
+  left: 169px;
+  top: 539.6928327645013px;
+  position: absolute;
+  width: 158px;
+  height: max-content;
+  min-width: min-content;
+}
+.select {
+  left: 433px;
+  top: 193.20819112627993px;
+  position: absolute;
+  width: 485px;
+  height: max-content;
+  min-width: min-content;
+}
+.select_1 {
+  left: 433px;
+  top: 461.0580204778155px;
+  position: absolute;
+  width: 485px;
+  height: max-content;
+  min-width: min-content;
+}
+.select_2 {
+  left: 433px;
+  top: 281.67235494880543px;
+  position: absolute;
+  width: 485px;
+  height: max-content;
+  min-width: min-content;
+}
+.select_3 {
+  left: 433px;
+  top: 370.13651877133094px;
+  position: absolute;
+  width: 485px;
+  height: max-content;
+  min-width: min-content;
+}
+.button_2 {
+  color: hsla(var(--igx-grays-900));
+  background-color: hsla(var(--igx-surface-500));
+  left: 131.25597269624575px;
+  top: 80.17064846415985px;
+  position: absolute;
+  width: 66px;
+  height: max-content;
+  min-width: min-content;
+}
+.button_3 {
+  color: hsla(var(--igx-grays-900));
+  background-color: hsla(var(--igx-surface-500));
+  left: 453.16723549488023px;
+  top: 80.17064846415985px;
+  position: absolute;
+  width: 66px;
+  height: max-content;
+  min-width: min-content;
+}
+.button_4 {
+  color: hsla(var(--igx-grays-900));
+  background-color: hsla(var(--igx-surface-500));
+  left: 829.139931740621px;
+  top: 80.17064846415985px;
+  position: absolute;
+  width: 66px;
+  height: max-content;
+  min-width: min-content;
+}
+.button_5 {
+  color: hsla(var(--igx-grays-900));
+  background-color: hsla(var(--igx-surface-500));
+  left: 1210.0273037542813px;
+  top: 80.17064846415985px;
+  position: absolute;
+  width: 66px;
+  height: max-content;
+  min-width: min-content;
+}
+.icon {
+  font-size: 48px;
+  width: 48px;
+  height: 48px;
+  color: hsla(var(--igx-primary-900));
+  left: 879.2673492605308px;
+  top: 33.80659840728114px;
+  position: absolute;
+}
+.icon_1 {
+  font-size: 48px;
+  width: 48px;
+  height: 48px;
+  color: hsla(var(--igx-success-500));
+  left: 144.0000000000021px;
+  top: 33.80659840728114px;
+  position: absolute;
+}
+.icon_2 {
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  color: hsla(var(--igx-surface-500));
+  left: 524.6006825938595px;
+  top: 45.80659840728096px;
+  position: absolute;
+}
+.icon_3 {
+  font-size: 48px;
+  width: 48px;
+  height: 48px;
+  color: hsla(var(--igx-success-500));
+  left: 512.6006825938584px;
+  top: 33.80659840728114px;
+  position: absolute;
+}
+.icon_4 {
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  color: hsla(var(--igx-surface-500));
+  left: 891.2673492605317px;
+  top: 45.80659840728096px;
+  position: absolute;
+}
+.icon_5 {
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  color: hsla(var(--igx-surface-500));
+  left: 156.00000000000287px;
+  top: 45.80659840728096px;
+  position: absolute;
+}
+.text {
+  left: 434.94880546075063px;
+  top: 161.26279863481236px;
+  position: absolute;
+  height: max-content;
+  min-width: min-content;
+}
+.text_1 {
+  color: hsla(var(--igx-primary-900));
+  left: 665.2813366574233px;
+  top: 109.1740297701582px;
+  position: absolute;
+  height: max-content;
+  min-width: min-content;
+}
+.text_2 {
+  color: hsla(var(--igx-primary-900));
+  left: 681.3047274957338px;
+  top: 128.83273284183053px;
+  position: absolute;
+  height: max-content;
+  min-width: min-content;
+}
+.text_3 {
+  left: 434.94880546075063px;
+  top: 252.18430034129682px;
+  position: absolute;
+  height: max-content;
+  min-width: min-content;
+}
+.text_4 {
+  left: 434.94880546075063px;
+  top: 343.10580204778137px;
+  position: absolute;
+  height: max-content;
+  min-width: min-content;
+}
+.text_5 {
+  left: 437.4061433447097px;
+  top: 434.027303754266px;
+  position: absolute;
+  height: max-content;
+  min-width: min-content;
+}

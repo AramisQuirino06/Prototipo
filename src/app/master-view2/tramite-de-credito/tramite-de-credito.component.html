@@ -1,0 +1,51 @@
+<div class="group">
+  <igx-slider [value]="0" [continuous]="true" [minValue]="0" [maxValue]="5000000" [primaryTicks]="2" [secondaryTickLabels]="false" [showTicks]="true" class="slider"></igx-slider>
+  <igx-slider [value]="0" [continuous]="true" [minValue]="1" [maxValue]="48" [primaryTicks]="2" [secondaryTickLabels]="false" [showTicks]="true" class="slider_1"></igx-slider>
+  <igx-input-group type="border" class="input">
+    <input type="text" [(ngModel)]="value" [disabled]="true" igxInput />
+  </igx-input-group>
+  <igx-input-group type="border" class="input_1">
+    <input type="text" [(ngModel)]="value1" [disabled]="true" igxInput />
+  </igx-input-group>
+  <igx-select type="border" class="select">
+    <igx-select-item value="Option">
+      Hipotecaria
+    </igx-select-item>
+    <igx-select-item value="Option">
+      Prendaria
+    </igx-select-item>
+    <label igxLabel>Seleccionar</label>
+  </igx-select>
+  <p class="text">
+    Tipo de Garantía
+  </p>
+  <p class="text_1">
+    ¿Cuánto necesitas?
+  </p>
+  <p class="text_2">
+    ¿A qué plazo?
+  </p>
+  <igx-icon class="icon">
+    attach_money
+  </igx-icon>
+  <igx-icon class="icon_1">
+    calendar_today
+  </igx-icon>
+  <div class="group_1">
+    <p class="text_3">
+      ¿Cuánto voy a pagar?
+    </p>
+    <p class="text_4">
+      $51,583.33
+    </p>
+    <p class="text_5">
+      1 Pago Mensual
+    </p>
+    <p class="text_6">
+      Interés anual promedio 38%
+    </p>
+  </div>
+  <button igxButton="raised" igxRipple routerLink="/master-view2/datos-personales" class="button">
+    Simula tu Crédito
+  </button>
+</div>

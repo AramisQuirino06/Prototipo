@@ -1,0 +1,57 @@
+<div class="group">
+  <igx-icon class="icon">
+    check
+  </igx-icon>
+  <igx-icon class="icon_1">
+    check
+  </igx-icon>
+  <igx-icon class="icon_2">
+    expand_more
+  </igx-icon>
+  <igx-icon class="icon_3">
+    check
+  </igx-icon>
+  <igx-icon class="icon_4">
+    check
+  </igx-icon>
+  <igx-icon class="icon_3">
+    check
+  </igx-icon>
+  <igx-navbar class="navbar">
+    <igx-navbar-action>
+      <button igxButton="icon" igxRipple class="button">
+        <igx-icon>
+          menu
+        </igx-icon>
+      </button>
+    </igx-navbar-action>
+    <igx-navbar-title>
+      <button igxButton="flat" igxRipple routerLink="/master-view1/nuevo-ingreso" class="button_1">
+        <igx-icon>
+          account_circle
+        </igx-icon>
+        <span>Cerrar Sesión</span>
+      </button>
+    </igx-navbar-title>
+  </igx-navbar>
+  <igx-grid [data]="northwindCustomers" primaryKey="customerID" displayDensity="cosy" cellSelection="multiple" [rowEditable]="true" [moving]="true" columnSelection="multiple" [allowFiltering]="true" filterMode="excelStyleFilter" width="1202px" height="615px" class="grid">
+    <igx-grid-toolbar>
+      <igx-grid-toolbar-title>Grid Toolbar</igx-grid-toolbar-title>
+    </igx-grid-toolbar>
+    <igx-column header="customerID" field="customerID" dataType="string" [sortable]="true" [resizable]="true" [editable]="true" title="customerID"></igx-column>
+    <igx-column header="companyName" field="companyName" dataType="string" [sortable]="true" [resizable]="true" [editable]="true" title="companyName"></igx-column>
+    <igx-column header="contactName" field="contactName" dataType="string" [sortable]="true" [resizable]="true" [editable]="true" title="contactName"></igx-column>
+    <igx-column header="contactTitle" field="contactTitle" dataType="string" [sortable]="true" [resizable]="true" [editable]="true" title="contactTitle"></igx-column>
+    <igx-column header="street" field="address.street" dataType="string" [sortable]="true" [resizable]="true" [editable]="true" title="address.street"></igx-column>
+    <igx-column header="city" field="address.city" dataType="string" [sortable]="true" [resizable]="true" [editable]="true" title="address.city"></igx-column>
+    <igx-column header="region" field="address.region" dataType="string" [sortable]="true" [resizable]="true" [editable]="true" title="address.region"></igx-column>
+    <igx-column header="postalCode" field="address.postalCode" dataType="string" [sortable]="true" [resizable]="true" [editable]="true" title="address.postalCode"></igx-column>
+    <igx-column header="country" field="address.country" dataType="string" [sortable]="true" [resizable]="true" [editable]="true" title="address.country"></igx-column>
+    <igx-column header="phone" field="address.phone" dataType="string" [sortable]="true" [resizable]="true" [editable]="true" title="address.phone"></igx-column>
+    <igx-action-strip>
+      <igx-grid-pinning-actions></igx-grid-pinning-actions>
+      <igx-grid-editing-actions [addRow]="true"></igx-grid-editing-actions>
+    </igx-action-strip>
+    <igx-paginator [perPage]="10"></igx-paginator>
+  </igx-grid>
+</div>

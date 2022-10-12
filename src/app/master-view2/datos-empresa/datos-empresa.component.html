@@ -1,0 +1,102 @@
+<div class="group">
+  <igx-slider [value]="3" [minValue]="1" [maxValue]="4" [step]="1" [secondaryTickLabels]="false" class="slider"></igx-slider>
+  <igx-icon class="icon">
+    stop
+  </igx-icon>
+  <igx-icon class="icon_1">
+    stop
+  </igx-icon>
+  <igx-icon class="icon_2">
+    check
+  </igx-icon>
+  <igx-icon class="icon_3">
+    stop
+  </igx-icon>
+  <igx-icon class="icon_4">
+    expand_more
+  </igx-icon>
+  <igx-icon class="icon_5">
+    check
+  </igx-icon>
+  <igx-icon class="icon_2">
+    check
+  </igx-icon>
+  <p class="text">
+    ¿Tu negocio tiene más de 6 meses operando?
+  </p>
+  <p class="text_1">
+    Datos Empresa
+  </p>
+  <p class="text_2">
+    Acreditado
+  </p>
+  <p class="text_3">
+    ¿Depositas tus ingresos en una cuenta bancaria?
+  </p>
+  <p class="text_4">
+    ¿Cómo deseas respaldar tu crédito?
+  </p>
+  <p class="text_5">
+    Si no cuentas con ninguna garantía, ¿podrías conseguirla con un tercero?
+  </p>
+  <igx-icon class="icon_5">
+    check
+  </igx-icon>
+  <button igxButton="raised" igxRipple routerLink="/master-view2/buro" class="button">
+    Next
+  </button>
+  <button igxButton="raised" igxRipple routerLink="/master-view2/datos-personales" class="button_1">
+    Back
+  </button>
+  <igx-select type="border" class="select">
+    <igx-select-item value="1">
+      Si
+    </igx-select-item>
+    <igx-select-item value="2">
+      No
+    </igx-select-item>
+    <label igxLabel>Seleccionar</label>
+  </igx-select>
+  <igx-select type="border" class="select_1">
+    <igx-select-item value="1">
+      Si
+    </igx-select-item>
+    <igx-select-item value="2" routerLink="/master-view2/datos-empresa-no">
+      No
+    </igx-select-item>
+    <label igxLabel>Seleccionar</label>
+  </igx-select>
+  <igx-select type="border" class="select_2">
+    <igx-select-item value="1">
+      Si
+    </igx-select-item>
+    <igx-select-item value="2">
+      No
+    </igx-select-item>
+    <label igxLabel>Seleccionar</label>
+  </igx-select>
+  <igx-select type="border" class="select_3">
+    <igx-select-item value="1">
+      Garantía Hipotecaria
+    </igx-select-item>
+    <igx-select-item value="2">
+      Garantía Prendaria
+    </igx-select-item>
+    <igx-select-item value="3">
+      No cuento con ninguna garantía
+    </igx-select-item>
+    <label igxLabel>Seleccionar</label>
+  </igx-select>
+  <button igxButton="flat" igxRipple class="button_2">
+    Datos del crédito
+  </button>
+  <button igxButton="flat" igxRipple class="button_3">
+    Datos Personales
+  </button>
+  <button igxButton="flat" igxRipple class="button_4">
+    Datos Empresa
+  </button>
+  <button igxButton="flat" igxRipple class="button_5">
+    Buro y ciec
+  </button>
+</div>
